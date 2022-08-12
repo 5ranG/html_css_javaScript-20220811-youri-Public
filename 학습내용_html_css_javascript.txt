@@ -2,4 +2,13 @@
 	비주얼 스튜디오
 	실시간 미리보기 alt + L + O
 	https://sites.google.com/view/kji-java/web%ED%91%9C%EC%A4%80
- 
+ 220812
+	05
+		input
+	06
+		css_Basic
+	07
+	fonts.google ( <link>는 html / @import: style 
+	08
+		box (inline padding display)
+		position
