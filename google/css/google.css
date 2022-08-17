@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    color: #333;
+}
+
+div{
+    border: 1px solid black;
+}
+
+.wrap{
+    width: 100%; height: auto;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.heade-menu>button{
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main > img{
+    max-width: fit-content;
+}
