@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box{
+        border: 2px solid #dbddbb;
+        width: 150px; height: 150px;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <div class="box" onclick="alert('버튼을 클릭했습니다.')">click</div>
+    <div class="box" ondblclick="alert('버튼을 클릭했습니다.')">dblclick</div>
+    <div class="box" onmousedown="alert('마우스를 눌렀습니다.')">mousedown</div>
+    <div class="box" onmouseup="alert('누르고 있던 마우스를 뗐습니다')">mouseup</div>
+    <div class="box" onmousemove="alert('마우스를 움직였습니다.')">onmousemove</div>
+    <div class="box" onmouseover="alert('마우스가 목표에 올라왔습니다.')">onmouseover</div>
+    <div class="box" onmouseout="alert('마우스가 목표에서 나갔습니다.')">onmouseout</div>
+</body>
+</html>

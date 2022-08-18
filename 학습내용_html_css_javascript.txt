@@ -26,3 +26,15 @@
 220817
 	google
 		signin.html + signin.css
+220818
+	13
+		modal(alert, confirm, prompt, console.log)
+	15
+		variable
+		AnonymousFunction
+		mouseevent
+	16
+		history (back, forward, replace)
+	17
+		qurarySelector
+		innerHTML
