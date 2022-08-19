@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let user = {
+            name: "김준일",
+            email: "skji1234@kakao.com",
+            username: "junil",
+            password: "1234",
+            showInfo: () => {
+                console.log(`                
+                    이름: ${user.name}
+                    이메일: ${user.email}
+                    아이디: ${user.username}
+                    비밀번호: ${user.password}
+                `);
+            }
+        };
+
+        user.showInfo();
+        console.log(JSON.stringify(user)); //user를 제이슨 객체로 바꿔라
+
+        let jsonText = JSON.stringify(user);
+        let jsonKObj = JSON.parse(jsonText);
+
+        console.log(jsonKObj.username);
+
+    </script>
+</body>
+</html>
