@@ -1,0 +1,84 @@
+#wrap{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* form */
+#form{
+    width: 500px;
+    margin: 70px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 40%; height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#form > h1{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    background-color: #777;
+    border-radius: 5px;
+}
+
+#form > p {
+    padding: 15px;
+}
+
+#form > p > span{
+    display: inline-block;
+    width: 30%;
+    font-weight: 500;
+}
+
+#form > p > input{
+    width: 70%;
+}
+
+#form > button{
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    background-color: rgb(200, 200, 200);
+    cursor: pointer;
+}
+
+/* data */
+#data{
+    border: 1px solid black;
+    margin: 70px;
+    padding: 10px;
+    width: 60%; height: 100%;
+
+}
+
+#data > h1{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    background-color: #777;
+    border-radius: 5px;
+}
+
+#data > table {
+    padding: 15px;
+    width: 100%;
+}
+
+#data .table-head > th{
+    font-weight: 500;
+    background-color: rgb(200, 200, 200);
+}
+
+#data .table-body > td{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}

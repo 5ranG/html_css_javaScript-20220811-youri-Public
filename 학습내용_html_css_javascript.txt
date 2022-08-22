@@ -47,3 +47,7 @@
 		node
 		board
 		json
+220822
+	UserMangement
+		index.html style.css index.js 실습
+		index.html style.css user_info.js 수업 (JSON.stringify/JSON.parse()
