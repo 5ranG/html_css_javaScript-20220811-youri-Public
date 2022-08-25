@@ -21,8 +21,7 @@
 	google
 		index.html2 + google.css
 		index.html + style.css
-	fontawesome (opel22@naver.com/min0324)
-		https://fontawesome.com/kits/44bcb903a4/use
+	fontawesome https://fontawesome.com/kits/44bcb903a4/use
 220817
 	google
 		signin.html + signin.css
